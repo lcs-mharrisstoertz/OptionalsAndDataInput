@@ -16,7 +16,7 @@
 import PlaygroundSupport
 
 // Simulate first input
-let input1 = "20"
+let input1 = "true"
 // Convert first input to integer, using a guard statement
 guard let input1AsInteger = Int(input1) else {
     print("Please provide numeric input.")
@@ -42,10 +42,10 @@ print(type(of: input2AsInteger))
 print("===")
 
 // Now try to do arithmetic...
-//let area = input1AsInteger * input2AsInteger
-//print("---")
-//print("The area has this many square units: \(area)")
-//print("===")
+let area = input1AsInteger * input2AsInteger
+print("---")
+print("The area has this many square units: \(area)")
+print("===")
 
 /*:
  
