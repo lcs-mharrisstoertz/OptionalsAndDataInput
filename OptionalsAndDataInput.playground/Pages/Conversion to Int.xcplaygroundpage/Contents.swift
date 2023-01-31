@@ -42,11 +42,11 @@ let input3 = "twenty"
 
 // Attempt to convert a string, "true", to an integer
 let input4 = "true"
-//let input4AsInteger = Int(input4)
-//print("---")
-//print("input4AsInteger has a data type of:")
-//print(type(of: input4AsInteger))
-//print("===")
+let input4AsInteger = Int(input4)
+print("---")
+print("input4AsInteger has a data type of:")
+print(type(of: input4AsInteger))
+print("===")
 
 /*:
  
